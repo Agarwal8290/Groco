@@ -1,0 +1,43 @@
+.products .product-slider{
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+ .box4{
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+
+.box4:hover{
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+
+.box4 img{
+    height: 20rem;
+
+}
+
+.box4 h3{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.box4 .price{
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: .5rem 0;
+
+}
+
+.box4 .stars i{
+    font-size: 1.7rem;
+    color: var(--orange);
+    padding: .5rem 0;
+}
